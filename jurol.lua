@@ -13,14 +13,14 @@ local colors = {
 }
 ]]
 -- Создать окно UI
-local Window = Library.CreateLib("JUROL_SCRIPTS Alpha 1", "RJTheme3")
+local Window = Library.CreateLib("JUROL_SCRIPTS Alpha 2", "RJTheme3")
 
 local Tab = Window:NewTab("Scripts")
 
 local Section = Tab:NewSection("Da hood")
 
 Section:NewButton("Script da hood", "this button activate script on da hood", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/C6R2XTGi"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RYZZCHIPSX/ryzzchips/main/beamed%20ware%20script"))();
 end)
 
 local Section = Tab:NewSection("mm2")
